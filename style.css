@@ -1,0 +1,153 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f00; /* Change the background color to your preferred color */
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    background: url('images/your-background-image.jpg') center/cover no-repeat; /* Replace with your background image */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  /* Music Section Styles */
+  .music-section {
+    background-color: #ffffff41;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .music-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .primary-btn {
+    background-color: #f00; /* Change the background color to your preferred color */
+    color: #fff;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-btn:hover {
+    background-color: #000;
+  }
+  
+  .ipad-iphone-img {
+    margin-top: 30px;
+  }
+  
+  /* About Music Section Styles */
+  .about-music {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .mac-img img {
+    width: 100%;
+  }
+  
+  /* Video Section Styles */
+  .video-section {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  /* Gift Section Styles */
+  .gift-section {
+    display: flex;
+    align-items: center;
+    background-color: #f00; /* Change the background color to your preferred color */
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .gift-card img {
+    max-width: 100%;
+  }
+  
+  .secondary-btn {
+    background-color: #fff;
+    color: #f00; /* Change the text color to your preferred color */
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .secondary-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #f00; /* Change the background color to your preferred color */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-links {
+    margin: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  .footer-links ul li {
+    margin: 10px 0;
+  }
+  
+  /* Copyright Styles */
+  .footer-lower {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
